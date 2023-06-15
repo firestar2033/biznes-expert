@@ -466,10 +466,11 @@ p {
 .reviews__text {
     margin-bottom: 25px;
 
-    font-family: 'Cardo', sans-serif;
-    font-style: italic;
-    font-size: 36px;
-    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 300; 
+    line-height: 1.0;
     color: #fff;
 }
 

@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Cardo:400i|Open+Sans:700|Raleway:300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta name="description" content="Бизнес-Мебель" />
+    <meta name="keywords" content="Мебель" />
+    <meta name="google" content="notranslate" />
+    <title>Бизнес-Эксперт | Шкафы</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body id="kitchens">
+
+<!-- Sprite -->
+<svg style="display: none;">
+
+    <symbol id="facebook" viewBox="0 0 430.113 430.114">
+        <g>
+            <path d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805
+                c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354
+                c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z"/>
+        </g>
+    </symbol>
+
+    <symbol id="whatsapp" viewBox="0 0 20 20">
+        <g xmlns="http://www.w3.org/2000/svg">
+            <g id="Dribbble-Light-Preview" transform="translate(-300.000000, -7599.000000)">
+                <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path d="M259.821,7453.12124 C259.58,7453.80344 258.622,7454.36761 257.858,7454.53266 C257.335,7454.64369 256.653,7454.73172 254.355,7453.77943 C251.774,7452.71011 248.19,7448.90097 248.19,7446.36621 C248.19,7445.07582 248.934,7443.57337 250.235,7443.57337 C250.861,7443.57337 250.999,7443.58538 251.205,7444.07952 C251.446,7444.6617 252.034,7446.09613 252.104,7446.24317 C252.393,7446.84635 251.81,7447.19946 251.387,7447.72462 C251.252,7447.88266 251.099,7448.05372 251.27,7448.3478 C251.44,7448.63589 252.028,7449.59418 252.892,7450.36341 C254.008,7451.35771 254.913,7451.6748 255.237,7451.80984 C255.478,7451.90987 255.766,7451.88687 255.942,7451.69881 C256.165,7451.45774 256.442,7451.05762 256.724,7450.6635 C256.923,7450.38141 257.176,7450.3464 257.441,7450.44643 C257.62,7450.50845 259.895,7451.56477 259.991,7451.73382 C260.062,7451.85686 260.062,7452.43903 259.821,7453.12124 M254.002,7439 L253.997,7439 L253.997,7439 C248.484,7439 244,7443.48535 244,7449 C244,7451.18666 244.705,7453.21526 245.904,7454.86076 L244.658,7458.57687 L248.501,7457.3485 C250.082,7458.39482 251.969,7459 254.002,7459 C259.515,7459 264,7454.51465 264,7449 C264,7443.48535 259.515,7439 254.002,7439" id="whatsapp-[#128]"></path>
+                </g>
+            </g>
+        </g>
+    </symbol>
+
+    <symbol id="instagram" viewBox="0 0 20 20">
+        <g xmlns="http://www.w3.org/2000/svg">
+            <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)">
+                <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]">
+                </path>
+                </g>
+            </g>
+        </g>
+    </symbol>
+
+</svg>
+
+<!-- Header -->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="./img/activebox-logo.png" alt="">
+            </div>
+
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="./index.html">Главная</a>
+                <a class="nav__link" href="./kitchens.html">Кухни</a>
+                <a class="nav__link" href="./wardrobes.html">Шкафы</a>
+                <a class="nav__link" href="./contacts.html">Контакты</a>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+                <span class="burger__item">Меню</span>
+            </button>
+
+        </div>
+    </div>
+</header>
+
+
+<!-- Intro -->
+<div class="intro" id="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">Шкафы</h1>
+            <h2 class="intro__subtitle">Узнать стоимость будущего шкафа – несложно! Свяжитесь с нами и получите точный рассчет стоимости в течении нескольких минут!</h2>
+            <a class="btn  btn--red" href="./contacts.html">Заказать шкаф</a>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Works -->
+<div class="works" id="works">
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-1.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">Купе</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-2.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">Купе</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-3.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">Купе</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-4.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">Купе</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-5.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">Купе</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-6.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">В прихожую</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-7.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">В прихожую</div>
+        </div>
+    </div>
+
+    <div class="works__item">
+        <img class="works__photo" src="./img/works/shkaf-8.jpg" alt="">
+        <div class="works__content">
+            <div class="works__title">Шкаф</div>
+            <div class="works__text">В прихожую</div>
+        </div>
+    </div>
+</div><!-- /.works -->
+
+<!-- Download -->
+<div class="download" id="download">
+    <div class="container">
+        <h3 class="download__title">Увидели фото шкафа и хотите такой же?
+            </h3>
+        <div class="download__text">
+            <p>Производим рассчет стоимости шкафов по фото.</p>
+        </div>
+        <a class="btn  btn--red  btn--long" href="./contacts.html">Заказать расчет</a>
+    </div>
+</div>
+
+<!-- Reviews -->
+<div class="reviews" id="reviews">
+    <div class="container">
+
+        <div class="reviews__slider" id="reviewsSlider">
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="./img/reviews/review-1.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">Мастерская Бизнес Эксперт была создана единомышленниками в 2002 году в городе Барнауле. Наша компания специализируется на изготовлении мебели на заказ для дома и бизнеса. Наш многолетний опыт позволяет удовлетворить основные потребности и пожелания любого заказчика. Мы используем только высококачественные фасады - массив дерева (дуб, бук, ясень), МДФ, эмаль, шпон и пластик, поэтому интерьеры, оформленные нашей компанией, выглядят эстетично и оригинально!</div>
+                        <div class="reviews__author">О нас</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slick-item">
+                <div class="reviews__item">
+                    <div class="reviews__photo">
+                        <img class="reviews__img" src="./img/reviews/review-1.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">Вы решили обзавестись мебелью, но не знаете с чего начать? Нашли интересную идею в интернете или журнале? А может быть у Вас есть готовый дизайн-проект будущей мебели и Вам интересна лучшая цена? Звоните или пишите нам. Мы расспросим о том, что, где и для чего Вам нужен ваш проект, и так же быстро постараемся ответить на все интересующие вопросы. Квалифицированный замерщик приедет к Вам в согласованное удобное время. С собой привезет необходимые образцы. После точных замеров совместно с Вами, с учетом всех пожеланий, составляем предварительный проект.</div>
+                        <div class="reviews__author">Схема покупки</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div><!-- /.container -->
+</div><!-- /.reviews -->
+
+<!-- Customers -->
+<div class="customers">
+    <div class="container">
+        <div class="customers__slider" id="customersSlider">
+            <div class="slick-item">
+                <div class="slick-item__calvin-klein">
+                    <img src="./img/customers/ck.jpeg" alt="calvin_klein" >
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="slick-item__rus-trapeza">
+                    <img src="./img/customers/rt.jpeg" alt="russkaya-trapeza" >
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="slick-item__rieker">
+                    <img src="./img/customers/rieker.png" alt="rieker" >
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="slick-item__billcee">
+                    <img src="./img/customers/billcee.jpeg" alt="billcee" >
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="slick-item__oblepiha">
+                    <img src="./img/customers/oblepiha.png" alt="oblepiha" >
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="slick-item__zapravka">
+                    <img src="./img/customers/zapravka.jpeg" alt="zapravka" >
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="slick-item__elitemed">
+                    <img src="./img/customers/elitemed.jpeg" alt="elitemed" >
+                </div>
+            </div>
+            <div class="slick-item">
+                <div class="slick-item__cavaletto">
+                    <img src="./img/customers/cavaletto.jpeg" alt="cavaletto" >
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.Customers -->
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__block">
+                <h4 class="footer__title">Местонахождение</h4>
+                <address class="footer__address">
+                    <div>г. Барнаул</div>
+                    <div>Маяковского, 18Д, к.2</div>
+                </address>
+            </div>
+
+            <div class="footer__block">
+                <h4 class="footer__title">Мы в соц.сетях</h4>
+                <div class="social  social--footer">
+                    <a class="social__item" href="//wa.me/79039478199" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="viber://chat?number=%2B79039478199" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#whatsapp"></use>
+                        </svg>
+                    </a>
+                    <a class="social__item" href="viber://chat?number=%2B79039478199" target="_blank">
+                        <svg class="social__icon">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer__block">
+                <h4 class="footer__title">Мебель на заказ Барнаул</h4>
+                <div class="footer__text">
+                    <p>Большой выбор стилей мебели и интерьера: прованс, классика, хай-тек, минимализм, кантри.</p>
+                </div>
+            </div>
+        </div><!-- /.footer__inner -->
+
+    </div><!-- /.container -->
+
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright__text">
+                <div>Copyright © 2023 ООО "БИЗНЕС-ЭКСПЕРТ"</div>
+                <div>Сайт сделан <span>Петровым В.О.</span></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!-- Javascript -->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./app.js"></script>
+
+
+</body>
+</html>
